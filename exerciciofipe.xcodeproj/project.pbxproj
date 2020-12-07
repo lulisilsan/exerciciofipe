@@ -3,19 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7BB1E5C600B8F1C3B00CC8A5 /* Pods_exerciciofipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967816B70D1C2F89D50E168D /* Pods_exerciciofipe.framework */; };
 		9F4057DC257EDD490070F04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4057DB257EDD490070F04B /* AppDelegate.swift */; };
 		9F4057DE257EDD490070F04B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4057DD257EDD490070F04B /* SceneDelegate.swift */; };
 		9F4057E0257EDD490070F04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4057DF257EDD490070F04B /* ViewController.swift */; };
 		9F4057E3257EDD490070F04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4057E1257EDD490070F04B /* Main.storyboard */; };
 		9F4057E5257EDD4B0070F04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4057E4257EDD4B0070F04B /* Assets.xcassets */; };
 		9F4057E8257EDD4B0070F04B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4057E6257EDD4B0070F04B /* LaunchScreen.storyboard */; };
+		9F40580E257EE85E0070F04B /* CarFipeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F40580C257EE85E0070F04B /* CarFipeViewCell.swift */; };
+		9F40580F257EE85E0070F04B /* CarFipeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F40580D257EE85E0070F04B /* CarFipeViewCell.xib */; };
+		9F405812257EEABD0070F04B /* Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F405811257EEABD0070F04B /* Brand.swift */; };
+		9F405815257EEB740070F04B /* CarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F405814257EEB740070F04B /* CarModel.swift */; };
+		9F405819257EEC350070F04B /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F405818257EEC350070F04B /* BaseClass.swift */; };
+		9F40581C257EECC60070F04B /* CarYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F40581B257EECC60070F04B /* CarYear.swift */; };
+		9F40581F257EECEE0070F04B /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F40581E257EECEE0070F04B /* CarDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		105609028EFDF1979837607A /* Pods-exerciciofipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exerciciofipe.release.xcconfig"; path = "Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe.release.xcconfig"; sourceTree = "<group>"; };
+		967816B70D1C2F89D50E168D /* Pods_exerciciofipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exerciciofipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4057D8257EDD490070F04B /* exerciciofipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exerciciofipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4057DB257EDD490070F04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F4057DD257EDD490070F04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,14 @@
 		9F4057E4257EDD4B0070F04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F4057E7257EDD4B0070F04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F4057E9257EDD4B0070F04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F40580C257EE85E0070F04B /* CarFipeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarFipeViewCell.swift; sourceTree = "<group>"; };
+		9F40580D257EE85E0070F04B /* CarFipeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarFipeViewCell.xib; sourceTree = "<group>"; };
+		9F405811257EEABD0070F04B /* Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Brand.swift; sourceTree = "<group>"; };
+		9F405814257EEB740070F04B /* CarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarModel.swift; sourceTree = "<group>"; };
+		9F405818257EEC350070F04B /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
+		9F40581B257EECC60070F04B /* CarYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarYear.swift; sourceTree = "<group>"; };
+		9F40581E257EECEE0070F04B /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
+		CECED150C5F7F668010DF5BE /* Pods-exerciciofipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exerciciofipe.debug.xcconfig"; path = "Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BB1E5C600B8F1C3B00CC8A5 /* Pods_exerciciofipe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F692C68CCAE4D01031C2FBA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				967816B70D1C2F89D50E168D /* Pods_exerciciofipe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53C487C6A90AC21AC1DF9878 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CECED150C5F7F668010DF5BE /* Pods-exerciciofipe.debug.xcconfig */,
+				105609028EFDF1979837607A /* Pods-exerciciofipe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9F4057CF257EDD490070F04B = {
 			isa = PBXGroup;
 			children = (
 				9F4057DA257EDD490070F04B /* exerciciofipe */,
 				9F4057D9257EDD490070F04B /* Products */,
+				53C487C6A90AC21AC1DF9878 /* Pods */,
+				0F692C68CCAE4D01031C2FBA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +94,7 @@
 		9F4057DA257EDD490070F04B /* exerciciofipe */ = {
 			isa = PBXGroup;
 			children = (
+				9F4057F9257EE69F0070F04B /* Modules */,
 				9F4057DB257EDD490070F04B /* AppDelegate.swift */,
 				9F4057DD257EDD490070F04B /* SceneDelegate.swift */,
 				9F4057DF257EDD490070F04B /* ViewController.swift */,
@@ -67,6 +106,172 @@
 			path = exerciciofipe;
 			sourceTree = "<group>";
 		};
+		9F4057F9257EE69F0070F04B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				9F4057FA257EE6B10070F04B /* Shared */,
+				9F4057FB257EE6BB0070F04B /* CarBrand */,
+				9F4057FF257EE7100070F04B /* CarModel */,
+				9F405803257EE7480070F04B /* CarYear */,
+				9F405807257EE78E0070F04B /* CarDetail */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		9F4057FA257EE6B10070F04B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9F405817257EEC150070F04B /* BaseClass */,
+				9F40580B257EE82F0070F04B /* Cell */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9F4057FB257EE6BB0070F04B /* CarBrand */ = {
+			isa = PBXGroup;
+			children = (
+				9F4057FC257EE6CC0070F04B /* View */,
+				9F4057FD257EE6DB0070F04B /* ViewModel */,
+				9F4057FE257EE6E50070F04B /* Model */,
+			);
+			path = CarBrand;
+			sourceTree = "<group>";
+		};
+		9F4057FC257EE6CC0070F04B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F4057FD257EE6DB0070F04B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F4057FE257EE6E50070F04B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F405811257EEABD0070F04B /* Brand.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F4057FF257EE7100070F04B /* CarModel */ = {
+			isa = PBXGroup;
+			children = (
+				9F405802257EE7390070F04B /* View */,
+				9F405801257EE7300070F04B /* ViewModel */,
+				9F405800257EE7260070F04B /* Model */,
+			);
+			path = CarModel;
+			sourceTree = "<group>";
+		};
+		9F405800257EE7260070F04B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F405814257EEB740070F04B /* CarModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F405801257EE7300070F04B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F405802257EE7390070F04B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F405803257EE7480070F04B /* CarYear */ = {
+			isa = PBXGroup;
+			children = (
+				9F405806257EE7680070F04B /* View */,
+				9F405805257EE75E0070F04B /* ViewModel */,
+				9F405804257EE7580070F04B /* Model */,
+			);
+			path = CarYear;
+			sourceTree = "<group>";
+		};
+		9F405804257EE7580070F04B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F40581B257EECC60070F04B /* CarYear.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F405805257EE75E0070F04B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F405806257EE7680070F04B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F405807257EE78E0070F04B /* CarDetail */ = {
+			isa = PBXGroup;
+			children = (
+				9F40580A257EE7A90070F04B /* View */,
+				9F405809257EE79E0070F04B /* ViewModel */,
+				9F405808257EE7970070F04B /* Model */,
+			);
+			path = CarDetail;
+			sourceTree = "<group>";
+		};
+		9F405808257EE7970070F04B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9F40581E257EECEE0070F04B /* CarDetail.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9F405809257EE79E0070F04B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9F40580A257EE7A90070F04B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9F40580B257EE82F0070F04B /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9F40580C257EE85E0070F04B /* CarFipeViewCell.swift */,
+				9F40580D257EE85E0070F04B /* CarFipeViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9F405817257EEC150070F04B /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				9F405818257EEC350070F04B /* BaseClass.swift */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F4057EC257EDD4B0070F04B /* Build configuration list for PBXNativeTarget "exerciciofipe" */;
 			buildPhases = (
+				F7BC9E5F4FD35B7AFED4AB70 /* [CP] Check Pods Manifest.lock */,
 				9F4057D4257EDD490070F04B /* Sources */,
 				9F4057D5257EDD490070F04B /* Frameworks */,
 				9F4057D6257EDD490070F04B /* Resources */,
+				5C90A74A00C8DE16062232DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +332,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4057E8257EDD4B0070F04B /* LaunchScreen.storyboard in Resources */,
+				9F40580F257EE85E0070F04B /* CarFipeViewCell.xib in Resources */,
 				9F4057E5257EDD4B0070F04B /* Assets.xcassets in Resources */,
 				9F4057E3257EDD490070F04B /* Main.storyboard in Resources */,
 			);
@@ -132,14 +340,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5C90A74A00C8DE16062232DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7BC9E5F4FD35B7AFED4AB70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-exerciciofipe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9F4057D4257EDD490070F04B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9F4057E0257EDD490070F04B /* ViewController.swift in Sources */,
+				9F40580E257EE85E0070F04B /* CarFipeViewCell.swift in Sources */,
+				9F405815257EEB740070F04B /* CarModel.swift in Sources */,
 				9F4057DC257EDD490070F04B /* AppDelegate.swift in Sources */,
+				9F405819257EEC350070F04B /* BaseClass.swift in Sources */,
+				9F405812257EEABD0070F04B /* Brand.swift in Sources */,
+				9F40581F257EECEE0070F04B /* CarDetail.swift in Sources */,
 				9F4057DE257EDD490070F04B /* SceneDelegate.swift in Sources */,
+				9F40581C257EECC60070F04B /* CarYear.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +539,7 @@
 		};
 		9F4057ED257EDD4B0070F04B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CECED150C5F7F668010DF5BE /* Pods-exerciciofipe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +558,7 @@
 		};
 		9F4057EE257EDD4B0070F04B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 105609028EFDF1979837607A /* Pods-exerciciofipe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
