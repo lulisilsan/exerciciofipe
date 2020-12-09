@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7BB1E5C600B8F1C3B00CC8A5 /* Pods_exerciciofipe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 967816B70D1C2F89D50E168D /* Pods_exerciciofipe.framework */; };
+		9F2251942581560D009887AA /* CarBrandViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2251932581560D009887AA /* CarBrandViewModel.swift */; };
+		9F22519825815B3A009887AA /* BrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F22519725815B3A009887AA /* BrandViewController.swift */; };
 		9F4057DC257EDD490070F04B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4057DB257EDD490070F04B /* AppDelegate.swift */; };
 		9F4057DE257EDD490070F04B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4057DD257EDD490070F04B /* SceneDelegate.swift */; };
-		9F4057E0257EDD490070F04B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4057DF257EDD490070F04B /* ViewController.swift */; };
-		9F4057E3257EDD490070F04B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4057E1257EDD490070F04B /* Main.storyboard */; };
 		9F4057E5257EDD4B0070F04B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4057E4257EDD4B0070F04B /* Assets.xcassets */; };
 		9F4057E8257EDD4B0070F04B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4057E6257EDD4B0070F04B /* LaunchScreen.storyboard */; };
 		9F40580E257EE85E0070F04B /* CarFipeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F40580C257EE85E0070F04B /* CarFipeViewCell.swift */; };
@@ -21,16 +21,18 @@
 		9F405819257EEC350070F04B /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F405818257EEC350070F04B /* BaseClass.swift */; };
 		9F40581C257EECC60070F04B /* CarYear.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F40581B257EECC60070F04B /* CarYear.swift */; };
 		9F40581F257EECEE0070F04B /* CarDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F40581E257EECEE0070F04B /* CarDetail.swift */; };
+		9FDEAFB725815DA000EB239C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEAFB625815DA000EB239C /* Main.storyboard */; };
+		9FDEAFC2258169B500EB239C /* NavigationPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEAFC1258169B500EB239C /* NavigationPages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		105609028EFDF1979837607A /* Pods-exerciciofipe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exerciciofipe.release.xcconfig"; path = "Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe.release.xcconfig"; sourceTree = "<group>"; };
 		967816B70D1C2F89D50E168D /* Pods_exerciciofipe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exerciciofipe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F2251932581560D009887AA /* CarBrandViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBrandViewModel.swift; sourceTree = "<group>"; };
+		9F22519725815B3A009887AA /* BrandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandViewController.swift; sourceTree = "<group>"; };
 		9F4057D8257EDD490070F04B /* exerciciofipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = exerciciofipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4057DB257EDD490070F04B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F4057DD257EDD490070F04B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9F4057DF257EDD490070F04B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9F4057E2257EDD490070F04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F4057E4257EDD4B0070F04B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F4057E7257EDD4B0070F04B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F4057E9257EDD4B0070F04B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,6 +43,8 @@
 		9F405818257EEC350070F04B /* BaseClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
 		9F40581B257EECC60070F04B /* CarYear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarYear.swift; sourceTree = "<group>"; };
 		9F40581E257EECEE0070F04B /* CarDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetail.swift; sourceTree = "<group>"; };
+		9FDEAFB625815DA000EB239C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		9FDEAFC1258169B500EB239C /* NavigationPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPages.swift; sourceTree = "<group>"; };
 		CECED150C5F7F668010DF5BE /* Pods-exerciciofipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exerciciofipe.debug.xcconfig"; path = "Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,8 +101,6 @@
 				9F4057F9257EE69F0070F04B /* Modules */,
 				9F4057DB257EDD490070F04B /* AppDelegate.swift */,
 				9F4057DD257EDD490070F04B /* SceneDelegate.swift */,
-				9F4057DF257EDD490070F04B /* ViewController.swift */,
-				9F4057E1257EDD490070F04B /* Main.storyboard */,
 				9F4057E4257EDD4B0070F04B /* Assets.xcassets */,
 				9F4057E6257EDD4B0070F04B /* LaunchScreen.storyboard */,
 				9F4057E9257EDD4B0070F04B /* Info.plist */,
@@ -121,6 +123,7 @@
 		9F4057FA257EE6B10070F04B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				9FDEAFC02581698D00EB239C /* Extension */,
 				9F405817257EEC150070F04B /* BaseClass */,
 				9F40580B257EE82F0070F04B /* Cell */,
 			);
@@ -140,6 +143,8 @@
 		9F4057FC257EE6CC0070F04B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F22519725815B3A009887AA /* BrandViewController.swift */,
+				9FDEAFB625815DA000EB239C /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -147,6 +152,7 @@
 		9F4057FD257EE6DB0070F04B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9F2251932581560D009887AA /* CarBrandViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -272,6 +278,14 @@
 			path = BaseClass;
 			sourceTree = "<group>";
 		};
+		9FDEAFC02581698D00EB239C /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9FDEAFC1258169B500EB239C /* NavigationPages.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,8 +347,8 @@
 			files = (
 				9F4057E8257EDD4B0070F04B /* LaunchScreen.storyboard in Resources */,
 				9F40580F257EE85E0070F04B /* CarFipeViewCell.xib in Resources */,
+				9FDEAFB725815DA000EB239C /* Main.storyboard in Resources */,
 				9F4057E5257EDD4B0070F04B /* Assets.xcassets in Resources */,
-				9F4057E3257EDD490070F04B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,13 +401,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F4057E0257EDD490070F04B /* ViewController.swift in Sources */,
 				9F40580E257EE85E0070F04B /* CarFipeViewCell.swift in Sources */,
 				9F405815257EEB740070F04B /* CarModel.swift in Sources */,
+				9FDEAFC2258169B500EB239C /* NavigationPages.swift in Sources */,
 				9F4057DC257EDD490070F04B /* AppDelegate.swift in Sources */,
 				9F405819257EEC350070F04B /* BaseClass.swift in Sources */,
 				9F405812257EEABD0070F04B /* Brand.swift in Sources */,
 				9F40581F257EECEE0070F04B /* CarDetail.swift in Sources */,
+				9F2251942581560D009887AA /* CarBrandViewModel.swift in Sources */,
+				9F22519825815B3A009887AA /* BrandViewController.swift in Sources */,
 				9F4057DE257EDD490070F04B /* SceneDelegate.swift in Sources */,
 				9F40581C257EECC60070F04B /* CarYear.swift in Sources */,
 			);
@@ -402,14 +418,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9F4057E1257EDD490070F04B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9F4057E2257EDD490070F04B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		9F4057E6257EDD4B0070F04B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
