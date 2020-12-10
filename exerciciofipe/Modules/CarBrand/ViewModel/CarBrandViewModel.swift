@@ -35,8 +35,4 @@ class CarBrandViewModel {
         return brandList.count
     }
     
-    func addTitle(title: String) -> String {
-        return "Fipe - \(title)"
-    }
-    
 }

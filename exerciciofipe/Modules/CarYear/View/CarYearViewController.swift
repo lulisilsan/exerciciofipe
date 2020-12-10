@@ -53,7 +53,14 @@ class CarYearViewController: UIViewController {
     
 
 extension CarYearViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let carDetail = UIStoryboard(name: "CarDetail", bundle: nil).instantiateInitialViewController() as? CarDetailViewController {
+            carDetail.codBrand = self.codBrand
+            carDetail.codModel = self.codModel
+            carDetail.carYear = String(viewModel!.listYear[indexPath.row].cod)
+            navigationController?.pushViewController(carDetail, animated: true)
+        }
+    }
 }
 
 extension CarYearViewController: UITableViewDataSource {

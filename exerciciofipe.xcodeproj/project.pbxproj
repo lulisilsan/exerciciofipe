@@ -29,6 +29,9 @@
 		9FDEAFD02582902A00EB239C /* CarYearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEAFCF2582902A00EB239C /* CarYearViewController.swift */; };
 		9FDEAFD32582903800EB239C /* CarYear.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEAFD22582903800EB239C /* CarYear.storyboard */; };
 		9FDEAFD6258290D000EB239C /* CarYearViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEAFD5258290D000EB239C /* CarYearViewModel.swift */; };
+		9FDEAFDA2582A24800EB239C /* CarDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEAFD92582A24800EB239C /* CarDetailViewModel.swift */; };
+		9FDEAFDD2582BE9000EB239C /* CarDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FDEAFDC2582BE9000EB239C /* CarDetailViewController.swift */; };
+		9FDEAFE02582BEB100EB239C /* CarDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9FDEAFDF2582BEB100EB239C /* CarDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +60,9 @@
 		9FDEAFCF2582902A00EB239C /* CarYearViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarYearViewController.swift; sourceTree = "<group>"; };
 		9FDEAFD22582903800EB239C /* CarYear.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarYear.storyboard; sourceTree = "<group>"; };
 		9FDEAFD5258290D000EB239C /* CarYearViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarYearViewModel.swift; sourceTree = "<group>"; };
+		9FDEAFD92582A24800EB239C /* CarDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewModel.swift; sourceTree = "<group>"; };
+		9FDEAFDC2582BE9000EB239C /* CarDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDetailViewController.swift; sourceTree = "<group>"; };
+		9FDEAFDF2582BEB100EB239C /* CarDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CarDetail.storyboard; sourceTree = "<group>"; };
 		CECED150C5F7F668010DF5BE /* Pods-exerciciofipe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exerciciofipe.debug.xcconfig"; path = "Target Support Files/Pods-exerciciofipe/Pods-exerciciofipe.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -268,6 +274,7 @@
 		9F405809257EE79E0070F04B /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				9FDEAFD92582A24800EB239C /* CarDetailViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -275,6 +282,8 @@
 		9F40580A257EE7A90070F04B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9FDEAFDC2582BE9000EB239C /* CarDetailViewController.swift */,
+				9FDEAFDF2582BEB100EB239C /* CarDetail.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -365,6 +374,7 @@
 			files = (
 				9FDEAFD32582903800EB239C /* CarYear.storyboard in Resources */,
 				9F4057E8257EDD4B0070F04B /* LaunchScreen.storyboard in Resources */,
+				9FDEAFE02582BEB100EB239C /* CarDetail.storyboard in Resources */,
 				9F40580F257EE85E0070F04B /* CarFipeViewCell.xib in Resources */,
 				9FDEAFC925817B3400EB239C /* CarModel.storyboard in Resources */,
 				9FDEAFB725815DA000EB239C /* Main.storyboard in Resources */,
@@ -429,8 +439,10 @@
 				9F4057DC257EDD490070F04B /* AppDelegate.swift in Sources */,
 				9F405819257EEC350070F04B /* BaseClass.swift in Sources */,
 				9FDEAFD02582902A00EB239C /* CarYearViewController.swift in Sources */,
+				9FDEAFDA2582A24800EB239C /* CarDetailViewModel.swift in Sources */,
 				9FDEAFC625817B2600EB239C /* CarModelViewController.swift in Sources */,
 				9F405812257EEABD0070F04B /* Brand.swift in Sources */,
+				9FDEAFDD2582BE9000EB239C /* CarDetailViewController.swift in Sources */,
 				9F40581F257EECEE0070F04B /* CarDetail.swift in Sources */,
 				9F2251942581560D009887AA /* CarBrandViewModel.swift in Sources */,
 				9F22519825815B3A009887AA /* BrandViewController.swift in Sources */,
