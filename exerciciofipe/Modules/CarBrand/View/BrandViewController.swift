@@ -54,6 +54,17 @@ class BrandViewController: UIViewController {
 
 extension BrandViewController: UITableViewDelegate {
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let id = viewModel!.brandList[indexPath.row].cod
+        
+        if !(id.isEmpty) {
+            
+            let view = UIStoryboard(name: "CarModel", bundle: nil).instantiateInitialViewController() as! CarModelViewController
+            view.codBrand = id
+            self.navigationController?.pushViewController(view, animated: true)
+        }
+    }
+    
 }
 
 extension BrandViewController: UITableViewDataSource {
